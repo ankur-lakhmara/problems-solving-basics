@@ -1,0 +1,29 @@
+//this is the very very basic of how matrix works Multiplication of matrix by Array
+
+package String;
+
+import java.util.Scanner;
+
+public class MatrixMultiplication {
+    public static void main(String[]args) {
+        System.out.println("Matrix Multiplication Program");
+        Scanner sc = new Scanner(System.in);
+        int[]a = new int[4];
+        a[0] = 2;
+        a[1] = 4;
+        a[2] = 3;
+        a[3] = 5;
+        int []b = new int[4];
+        b[0] = 5;
+        b[1] = 4;
+        b[2] = 3;
+        b[3] = 2;
+        int []c = new int[4];
+        c[0] = a[0]*b[0] + a[1]*b[2];
+        c[1] = a[0]*b[1] + a[1]*b[3];
+        c[2] = a[2]*b[0] + a[3]*b[2];
+        c[3] = a[2]*b[1] + a[3]*b[3];
+        System.out.println(c[0]+" "+c[1]);
+        System.out.println(c[2]+" " +c[3]);
+    }
+}
