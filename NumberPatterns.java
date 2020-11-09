@@ -15,3 +15,4 @@ public class NumberPatterns {
         }
     }
 }
+//basic program for printing numbers in a particular pattern
